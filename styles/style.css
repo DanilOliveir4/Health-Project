@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid yellow;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: yellow;
+    color: black;
+}
+
+ul {
+    margin: 200;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 20px; 
+    font-family: poppinsmedium;
+}
+
+span {
+color: yellow;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 150%; 
+}
+
+.img-container {
+    max-width: 580px; 
+}
+img {
+    padding-top: 20px;
+    padding-left:  350px;
+    width: 800px;
+    height: auto;
+    opacity: .7;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px; /* Adiciona um espaçamento acima do formulário */
+}
+
+form [type="submit"] {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
