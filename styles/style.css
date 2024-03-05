@@ -64,6 +64,7 @@ h2 {
     line-height: 20px; 
     font-family: poppinsmedium;
 }
+ 
 
 span {
 color: yellow;
@@ -96,9 +97,9 @@ p {
 .img-container {
     max-width: 580px; 
 }
-img {
+.img-container img {
     padding-top: 20px;
-    padding-left:  350px;
+    padding-left:  350px;  
     width: 800px;
     height: auto;
     opacity: .7;
@@ -132,4 +133,58 @@ input {
     border-radius: 20px;
     border: none;
     font-size: 15px;
+}
+ /* Box 2*/
+
+#apresentacao {
+    padding-top: 5rem;
+  display: flex;
+
+  flex-direction: row  ;
+  margin-left: 5.4rem;
+}
+
+.avatar img{
+    border-radius: 100%;
+    height: 26rem;
+    width: 26rem;
+}
+
+/*.segundo{
+    margin-top: 2;
+    font-size: 2rem;
+      
+    font-family: poppinsmedium;
+}
+*/
+.Titulo{
+    line-height: 30px;
+    font-size: 35px;
+    color: yellow;
+    font-family: poppinsmedium;
+    margin-bottom: 1rem;
+    width: 33rem;
+}
+.Box2{
+    margin-left: 27rem;
+    line-height: 20px;
+    max-width: 586rem;
+    font-family: poppinslight;
+     
+}
+.segundo{
+    line-height: 26px;
+    font-size: 1.4rem;
+    max-width: 586rem;
+    margin-bottom: 1rem;
+}
+
+a.botao{
+    align-items: center;
+    height: 70px;
+    width: 164px;
+    /* padding: 10px; */
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
 }
