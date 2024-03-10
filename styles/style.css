@@ -188,3 +188,86 @@ a.botao{
     color: black;
     font-weight: bold;
 }
+
+/* PARTE 3 DO SITE */
+
+ 
+#secao-projetos{
+    margin-top: 5rem;
+    height: 100vh;
+    background-image: radial-gradient(circle at 50% 50%, #ffff6d 0, #f9e709 50%, #cbc400 100%);
+
+}
+
+.card{
+    max-width: 300px;
+    height: 420px;
+    color: var(--white);
+
+    position: relative;
+    cursor: pointer;
+    box-shadow:   35px -13px 41px -19px rgb(18, 18, 11);
+}
+
+.card:hover .card-text{
+     opacity: 1;
+}
+.card:hover .image-wrapper{
+    opacity: .3;
+}
+.image-wrapper{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.card-text{
+    margin-left: 2rem;
+    position: absolute;
+    top: 0;
+    width: 12rem;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+#secao-projetos ul{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+ #secao-projetos li{
+    list-style: none;
+ }
+
+ .card-text h2{
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .card-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.Teste {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
