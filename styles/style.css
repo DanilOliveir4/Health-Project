@@ -145,6 +145,7 @@ input {
 }
 
 .avatar img{
+    margin-top: 3rem;
     border-radius: 100%;
     height: 26rem;
     width: 26rem;
@@ -158,6 +159,7 @@ input {
 }
 */
 .Titulo{
+    margin-top: 6rem;
     line-height: 30px;
     font-size: 35px;
     color: yellow;
@@ -173,10 +175,12 @@ input {
      
 }
 .segundo{
-    line-height: 26px;
-    font-size: 1.4rem;
+    margin-top: 2rem;
+    line-height: 20px;
+    font-size: 1.3rem;
     max-width: 586rem;
     margin-bottom: 1rem;
+    font-family: poppinslight;
 }
 
 a.botao{
@@ -193,16 +197,17 @@ a.botao{
 
  
 #secao-projetos{
+    width: 100vw;
     margin-top: 5rem;
     height: 100vh;
     background-image: radial-gradient(circle at 50% 50%, #ffff6d 0, #f9e709 50%, #cbc400 100%);
-
+ 
 }
 
 .card{
     max-width: 300px;
     height: 420px;
-    color: var(--white);
+    
 
     position: relative;
     cursor: pointer;
@@ -239,7 +244,8 @@ a.botao{
 }
 
 #secao-projetos ul{
-    height: 100%;
+    
+    height: 90%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
