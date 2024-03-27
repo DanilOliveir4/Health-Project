@@ -4,7 +4,10 @@ body {
   font-family: poppinsregular;
   max-width: 1200px;
   margin: 0;
-  padding: 15px;
+  overflow-x: hidden;
+}
+main {
+  max-width: 100%; 
 }
 
 header {
@@ -13,6 +16,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 70px;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 #title {
@@ -45,9 +50,7 @@ a:hover {
   color: black;
 }
 
-ul {
-  margin: 200;
-}
+
 
 h1 {
   font-weight: 200;
@@ -63,6 +66,7 @@ h2 {
   font-size: 56px;
   line-height: 20px;
   font-family: poppinsmedium;
+  padding-left: 15px;
 }
 
 span {
@@ -73,6 +77,7 @@ p {
   line-height: 20px;
   max-width: 500px;
   font-family: poppinslight;
+  padding-left: 15px;
 }
 
 .botao {
@@ -105,11 +110,12 @@ p {
   border-radius: 50%;
 }
 
-form {
+#meu-formulario {
   display: flex;
   flex-direction: column;
   width: 70%;
   margin-top: 20px; /* Adiciona um espaçamento acima do formulário */
+  padding-left: 10px;
 }
 
 form [type="submit"] {
@@ -148,6 +154,7 @@ input {
   border-radius: 100%;
   height: 26rem;
   width: 26rem;
+  padding-top: 3rem;
 }
 
 /*.segundo{
@@ -171,6 +178,7 @@ input {
   line-height: 20px;
   max-width: 586rem;
   font-family: poppinslight;
+  padding-top: 3rem;
 }
 .segundo {
   margin-top: 2rem;
@@ -275,37 +283,40 @@ a.botao {
 }
 
 /* Secao-orcamento */
-
-secao-orcamento {
+#secao-orcamento {
+  width: 100vw;
   height: 100vh;
-  padding: 4rem;
- 
+  padding: 3rem;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
 }
+
 #secao-orcamento form {
   max-width: 500px;
-  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   font-size: 1.5rem;
   display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  
+  padding-right: 10rem;
 }
 
 .campo {
   display: flex;
   flex-direction: column;
 }
+
 .linha {
-  grid-column: 1/3;
+  grid-column: 1 / 3;
 }
 
-/*input[type = text],*/
-input[typer="number"],
+input[type="number"],
 select {
   background-color: goldenrod;
   font-family: var(--font-title);
   padding: 0.5rem;
-  margin-top: 1.5rem;
+  margin-top: 1.5rem; /* Corrigido para minúsculas */
 }
 
 .campo input {
